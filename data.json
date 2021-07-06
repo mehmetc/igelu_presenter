@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Kaan's persention",
+        "presenters": ["Kaan Celik"],
+        "institution": "KU Leuven",
+        "subtitle": "subtitle",
+        "time": {
+            "start": "12:00",
+            "end": "13:00"
+        }
+    }
+]

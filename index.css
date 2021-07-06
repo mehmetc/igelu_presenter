@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#logo{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    z-index: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+#presenters{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    z-index: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+#institution{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 28%;
+    z-index: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+#time{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 34%;
+    z-index: 20;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#subtitle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 12%;
+    z-index: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
